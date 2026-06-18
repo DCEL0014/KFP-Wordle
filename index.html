@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Wordle - Center for Sundhed</title>
+
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <main class="game-wrapper">
+    <section class="game-card">
+
+      <header class="game-header">
+        <img src="./logo.jpg" alt="Region Hovedstaden logo" class="logo" />
+
+        <h1>WORDLE</h1>
+        <h2>Center for Sundhed</h2>
+
+        <p class="subtitle">
+          Gæt et arbejdsplads-ord fra listen på 6 forsøg.
+        </p>
+      </header>
+
+      <section id="board" class="board"></section>
+
+      <section class="info-panel">
+        <p>Skriv dit første gæt.</p>
+      </section>
+
+    </section>
+  </main>
+
+  <script src="./data/words2.js"></script>
+  <script src="./data/words.js"></script>
+  <script src="./js/wordle.js"></script>
+</body>
+</html>
